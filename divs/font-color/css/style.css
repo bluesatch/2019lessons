@@ -1,0 +1,98 @@
+ /* Q1 */
+h1 { 
+    font-size: 36px;
+}
+
+/* Q2 */
+h2 {
+    font-size: 28px;
+}
+
+/* Q3 */
+
+.subheader1 p {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: blue;
+}
+
+/* Q4 */
+
+.subheader1 {
+    border: 5px solid red;
+}
+
+/* Q5 */
+
+.subheader2 p {
+    font-family: monospace;
+    font-size: 18px;
+    color: white;
+}
+
+/* Q6 */
+.subheader2 {
+    background: red;
+}
+
+/* Q7 */
+
+.subheader2 ul {
+    list-style: none;
+}
+
+/* Q8 */
+.subheader2 li {
+    display: inline;
+}
+
+/* Q9 */
+
+.subheader2 a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Q10 */
+
+.underline {
+    text-decoration: underline;
+}
+
+/* Q11 */
+
+.hover:hover {
+    text-transform: uppercase;
+    color: green;
+}
+
+/* Q12 */
+
+.subheader3 {
+    background: yellow;
+    border: 3px dashed purple;
+}
+
+/* Q13 */
+
+.subheader4 a {
+    text-decoration: none;
+    /* Q14 */
+    color: teal;
+}
+
+
+/* Q15 */
+.subheader4 a:hover {
+    font-size: 18px;
+    color: coral;
+}
+
+/* Q16 */
+
+.subheader4 p {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+} 
+

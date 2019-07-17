@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pizza Store</title>
+</head>
+<body>
+    <!-- Build an online pizza store
+        Include an h1, h2, h3
+        links
+        ul
+        forms:
+            username
+            password
+            pizza size
+            quantity of pizzas
+            up to 10 toppings
+            section for comments (special instructions)
+            delivery or pickup
+        images
+        commercial -->
+    <header>
+        <div class="banner">
+            <h1 id="top">Satch's <span class="pizzeria">Pizzeria!</span></h1>
+            <p><em>Come and get a slice of Satch!</em></p>
+        </div>
+        <div class="login">
+            <form action="#Link">
+                <p>Username:
+                    <input type="text" name="username">
+                    Password:
+                    <input type="password" name="password">
+                    <input type="submit" name="Login" value="Login">
+                </p>
+            </form>
+        </div>
+    </header>
+    <div class="promo">
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/uxpRAOgZVzc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <!-- images -->
+    <div class="specials">
+        <h2>Specialty Pizzas!</h2>
+        <ul class="deals">
+            <li class="red">
+                Double Pepperoni
+                <br>
+                <img src="media/doublepepperoni.png" alt="double    pepperoni">
+            </li>
+            <li>
+                Veggie Supreme
+                <br>
+                <img src="media/veggiesupreme.png" alt="veggie supreme">
+            </li>
+            <li>
+                Hawaiian BBQ
+                <br>
+                <img src="media/hawaiianbbq.png" alt="hawaiianbb1">
+            </li>
+            <li class="red">
+                Chitlin' Supreme
+                <br>
+                <img src="media/chitlinpizza.png" alt="chitlin supreme">
+            </li>
+            <li>
+                Korean BBQ
+                <br>
+                <img src="media/koreanbbq.png" alt="Korean BBQ">
+            </li>
+            <li>
+                <blockquote class="blink">"I had Satch's pizza for the first time two years ago. I haven't had another meal since!" - L.David</blockquote>
+            </li>
+        </ul>
+    </div>
+    <!-- form -->
+    <div class="order">
+        <h2>Order Here!!</h2>
+        <form action="#Link">
+            <h3>Will this be for delivery or pickup?</h3>
+            <p>
+                <input type="radio" name="order" value="delivery" checked="checked"> Delivery 
+                <input type="radio" name="order" value="pickup"> Pickup
+            </p>
+            <h3>Please select your size:</h3>
+            <p>
+                <input type="radio" name="size" value="small"> Small $7.99
+                <input type="radio" name="size" value="medium"> Medium $8.99
+                <input type="radio" name="size" value="large"> Large $9.99
+                <input type="radio" name="size" value="xl"> XLarge $11.99 
+            </p>
+            <h3>Quantity:</h3>
+            <p>
+                <input type="number" value="quantity" min="2" max="10">
+            </p>
+            <h3>Make selection here:</h3>
+            <p>
+                <select name="pizzas" id="pizzatype">
+                    <option value=""></option>
+                    <option value="doublepepp">Double Pepperoni</option>
+                    <option value="veggiesupreme">Veggie Supreme</option>
+                    <option value="hibbq">Hawaiian BBQ</option>
+                    <option value="chitlin">Chitlin Supreme</option>
+                    <option value="kbbq">Korean BBQ</option>
+                    <option value="create">Create Your Own</option>
+                </select>
+            </p>
+            <h3>If creating your own, choose your toppings here:</h3>
+            <p>
+                <!-- select[name="topping"]>option*10 -->
+                <select name="topping" id="topping" multiple="multiple">
+                    <option value="pepperoni">Pepperoni</option>
+                    <option value="sausage">Sausage</option>
+                    <option value="canadianbacon">Canadian Bacon</option>
+                    <option value="ham">Ham</option>
+                    <option value="beef">Beef</option>
+                    <option value="tomato">Tomato</option>
+                    <option value="pineapple">Pineapple</option>
+                    <option value="mushroom">Mushroom</option>
+                    <option value="peppers">Green Peppers</option>
+                    <option value="onion">Onions</option>
+                </select>
+            </p>
+            <h3>Special Instructions?</h3>
+            <textarea name="comments" id="comments" cols="30" rows="10">Enter special instructions here</textarea>
+            <br>
+            <input type="submit" name="submit" value="Submit Here">
+        </form>
+    </div>
+    <div class="contact">
+        <!-- contact info -->
+        <p>Contact Us</p>
+        <ul>
+            <li>Satch's Pizzeria</li>
+            <li>1234 Satch Blvd</li>
+            <li>Jackson, Ms</li>
+            <li>601-777-9311</li>
+            <li>pizzabysatch@coding.com</li>
+        </ul>
+        <p class="jumpto"><a href="#top">Top of Page</a></p>
+    </div>
+</body>
+</html>

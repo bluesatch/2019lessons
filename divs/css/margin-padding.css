@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: olive;
+}
+
+.parent {
+    position: relative;
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    background: tan;
+    /* border: 2px solid white; */
+}
+
+.block {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    /* float: left; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    /* display: inline-block; */
+}
+.one {
+    top: 0;
+    right: 0;
+    background: yellow;
+    /* margin: 10px 20px 10px 20px; */
+    /* margin-top: 25px; */
+    /* margin-bottom: 25px; */
+}
+
+.digit {
+    border: 2px solid orange;
+}
+
+.two {
+    bottom: 0; 
+    right: 0;
+    background: blue;
+    /* margin: -200px 0 0 200px; */
+}
+
+.three {
+    bottom: 0;
+    left: 0;
+    background: red;
+    /* margin: -200px 400px; */
+}
+
+.four {
+    top: 200px;
+    left: 200px;
+    background-color: teal;
+}
+
+.five {
+    top: 0;
+    left: 0;
+    background: coral;
+}

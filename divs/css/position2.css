@@ -1,0 +1,178 @@
+.parent {
+    position: relative;
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+    background: skyblue;
+}
+
+.block {
+    position: absolute;
+    /* float: right; */
+    width: 200px;
+    height: 200px;
+    font-family: sans-serif;
+    font-size: 44px; 
+    line-height: 4;
+    text-align: center;
+    color: white;
+}
+
+.cloud {
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background-color: #ededec;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+    from {
+      margin-right: 0%;
+      width: 5%; 
+    }
+  
+    to {
+      margin-right: 20%;
+      width: 10%;
+    }
+  }
+
+.block-one {
+    z-index: 2;
+    border-radius: 50%;
+    top: 75px;
+    left: 75px;
+    background-color: green;
+}
+
+.block-two {
+    z-index: 2;
+    top: 20px;
+    right: 200px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.block-three {
+    z-index: 2;
+    top: 100px;
+    right: 75px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.block-four {
+    bottom: 0px;
+    right: 200px;
+    background-color: brown;
+}
+
+.block-five {
+    top: 200px;
+    left: 200px;
+    background-color: brown;
+}
+
+.block-six {
+    z-index: 1;
+    top: 20px;
+    left: 15px;
+    border-radius: 50%;
+    background-color: #F9b508;
+    opacity: .5;
+}
+
+.block-seven {
+    width: 220px;
+    height: 220px;
+    top: 10px;
+    left: 5px;
+    border-radius: 50%;
+    background-color: #E65A0C;
+}
+
+.cloud-1 {
+    top: 5px;
+    right: 30px;
+}
+
+.cloud-2 {
+    top: 30px;
+    right: 80px;
+}
+
+.cloud-3 {
+    top: 50px;
+    right: 5px;
+}
+
+.cloud-4 {
+    top: 5px;
+    right: 100px;
+}
+
+.treehole {
+    position: absolute;
+    top: 300px;
+    left: 275px;
+    z-index: 3;
+    width: 50px;
+    height: 100px;
+    background: black;
+    border-radius: 50%;
+}
+
+.branch {
+    position: absolute;
+    top: 300px;
+    right: 180px;
+    width: 100px;
+    height: 100px;
+    transform: skew(-0.06turn, 45deg);
+    border-right: 10px solid brown;
+}
+
+.grass {
+    position: absolute;
+    z-index: 2;
+    width: 600px;
+    height: 20px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(6, 70, 29);
+}
+
+.leaves {
+    position: absolute;
+    top: 335px;
+    right: 135px;
+    width: 30px;
+    height: 20px;
+}
+
+.leaf1 {
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    top: 3px;
+    right: 15px;
+    background: rgb(6, 70, 29);
+}
+
+.leaf2 {
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    top: 5px; 
+    right: 20px;
+    background: rgb(6, 70, 29);
+}
+.leaf3 {
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    top: 2px;
+    right: 30px;
+    background: rgb(6, 70, 29);
+}

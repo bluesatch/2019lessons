@@ -1,0 +1,62 @@
+body {
+    font-size: 36px;
+    color: white;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align: center; */
+    /* line-height: 2; */
+}
+
+.parent {
+    /* position: absolute; */
+    margin: 100px auto;
+    width: 450px;
+    height: 450px;
+    background: black;
+}
+
+.block {
+    float: left;
+    width: 150px;
+    height: 150px;
+    color: black;
+    text-align: center;
+    line-height: 150px;
+}
+.one {
+    background: red;
+}
+
+.two {
+    background: green;
+}
+
+.three {
+    background: dodgerblue;
+}
+
+.four {
+    background: yellow;
+}
+
+.five {
+    background: purple;
+}
+
+.six {
+    background: orange;
+}
+
+.seven {
+    background: brown;
+}
+
+.eight {
+    background: gray;
+}
+
+.nine {
+    background: coral;
+}

@@ -1,0 +1,110 @@
+body {
+    /* background-color: yellow; */
+    /* background: dodgerblue; */
+    background: #DEE5EC;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-style: italic;
+    /* text-decoration: green wavy underline; */
+    color: dodgerblue;
+    /* background-color: red; */
+    /* border-bottom: 5px solid red; */
+}
+
+/* 11 */
+body h2.bio3 { 
+    color: blue;
+}
+/* 11 */
+h2.bio2 {
+    color: red;
+    font-size: 78px;
+}
+
+
+.bio {
+    width: 50%;
+    color: purple;
+    line-height: 2;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px; 
+    color: yellow;
+    text-decoration: underline;
+    width: 25%;
+}
+
+
+
+
+.title {
+    border-bottom: 5px solid red;
+    animation: blinker 3s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+/* h1:hover {
+    font-size: 64px;
+} */
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+ul li {
+    display: inline;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none; 
+    color: dodgerblue
+}
+
+a:hover {
+    font-size: 24px;
+    color: red;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #052C4D;
+}
+
+img {
+    border: 2px solid red;
+    border-radius: 50%;
+}
+
+iframe {
+    margin: auto;
+}
+/* ol + p{
+    line-height: 2;
+    font-size: 120%;
+    border: 3px solid green;
+} */
+
+.lead-in {
+    font-size: 125%;
+    text-align: center;
+}
+
+.jumpto {
+    text-align: center;
+}
+
+

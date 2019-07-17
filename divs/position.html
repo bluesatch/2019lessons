@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Position</title>
+	<!-- <link rel="stylesheet" href="css/style.css"> -->
+<style>
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	margin:30px auto 0;
+	width: 600px;
+	height: 600px;
+	background: #000;
+}
+
+.block {
+	width: 200px;
+	height: 200px;
+	background: red;
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 36px;
+	text-align: center;
+	line-height: 200px;
+}
+
+.block--one {
+	background: purple;
+}
+.block--two { 
+	top: 50px;
+	left: 50px;
+	background: green;
+}
+.block--three {
+	background: orange;
+}
+.block--four {
+	background: blue;
+}
+.block--five {
+	background: red;
+}
+.block--six {
+	color: yellow;
+	display: none;
+}
+
+.block--temp {
+	width: 100px;
+	height: 100px;
+	background: brown;
+	display: none;
+}
+
+.clear {
+	display: table;
+	clear: both;
+	height: 0;
+	width: 0;
+	content: '';
+}
+</style>
+</head>
+<body>
+	<div class="main">
+		<div class="block block--one">
+			<span>1</span>
+		</div>
+		<div class="block block--two">
+			<span>2</span>
+		</div>
+		<div class="block block--three">
+			<span>3</span>
+		</div>
+		<div class="block block--four">
+			<span>4</span>
+		</div>
+		<div class="block block--five">
+			<span>5</span>
+		</div>
+		<div class="block block--six">
+			<span>6</span>
+		</div>
+		<div class="block--temp"></div>
+	</div>
+</body>
+</html>
