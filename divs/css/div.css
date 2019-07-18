@@ -10,20 +10,19 @@ p {
 }
 
 .parent {
-    /* position: absolute; */
-    margin: 100px auto;
-    width: 450px;
-    height: 450px;
+    position: relative;
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
     background: black;
 }
 
 .block {
-    float: left;
-    width: 150px;
-    height: 150px;
-    color: black;
+    /* position: absolute; */
+    width: 200px;
+    height: 200px;
     text-align: center;
-    line-height: 150px;
+    line-height: 5;
 }
 .one {
     background: red;
