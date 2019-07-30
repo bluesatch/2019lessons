@@ -1,0 +1,19 @@
+nav {
+    width: 100%;
+    background: cyan;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+}
+
+main {
+    margin-top: 150px;
+}

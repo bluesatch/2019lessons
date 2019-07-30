@@ -1,6 +1,7 @@
 .parent {
     position: relative; 
-    margin: 0 auto;
+    padding: 0;
+    margin: -8px auto;
     width: 600px;
     height: 600px;
     background: black;
@@ -20,6 +21,16 @@
 .block-one {
     z-index: 1;
     background-color: green;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: jump-one;
+}
+
+@keyframes jump-one {
+    0%   { transform: translateX(0); }
+    50%  { transform: translateX(400px); }
+    100% { transform: translateX(0); }
 }
 
 .block-two {
@@ -35,6 +46,16 @@
     z-index: 3;
     border-radius: 50%;
     background-color: dodgerblue;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: jump-three;
+}
+
+@keyframes jump-three {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-400px); }
+    100% { transform: translateY(0); }
 }
 
 .block-four {
@@ -42,7 +63,18 @@
     right: 100px;
     z-index: 4;
     background-color: red;
+    animation: roll 3s infinite;
 }
+
+@keyframes roll {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
 
 .block-five {
     bottom: 0;
@@ -60,6 +92,7 @@
     height: 90px;
     border-right: 20px solid black;
     border-bottom: 20px solid black;
+  
 }
 
 .plus2 {
@@ -69,4 +102,5 @@
     height: 90px;
     border-top: 20px solid black;
     border-left: 20px solid black;
+
 }

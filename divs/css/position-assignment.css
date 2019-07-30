@@ -1,0 +1,109 @@
+.parent {
+    position: relative;
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+    background: black;
+}
+
+.block {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 8;
+    font-size: 24px;
+    color: white;
+}
+
+.block-one {
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    background-color: blue;
+    animation: roll 2s infinite;
+}
+
+.block-two {
+    z-index: 2;
+    top: 50px;
+    left: 50px;
+    background: red;
+    animation: roll-2 2s infinite;
+}
+
+.block-three {
+    z-index: 3;
+    top: 100px;
+    left: 100px;
+    background: green;
+    animation: roll 2s infinite;
+}
+
+.block-four {
+    z-index: 4;
+    top: 150px;
+    left: 150px;
+    background: olive;
+    animation: roll-2 2s infinite;
+}
+
+@keyframes roll-2 {
+    0% {
+        transform: rotate(0);
+      }
+    100% {
+        transform: rotate(-360deg);
+      }
+}
+
+.block-five {
+    z-index: 5;
+    bottom: 200px;
+    left: 200px;
+    background: orange;
+    animation: roll 2s infinite;
+}
+
+@keyframes roll {
+    0% {
+        transform: rotate(0);
+      }
+    100% {
+        transform: rotate(360deg);
+      }
+}
+
+.block-six {
+    z-index: 4;
+    bottom: 150px;
+    right: 150px;
+    background: fuchsia;
+    animation: roll-2 2s infinite
+}
+
+.block-seven {
+    z-index: 3;
+    bottom: 100px;
+    right: 100px;
+    background: skyblue;
+    animation: roll 2s infinite;
+}
+
+.block-eight {
+    z-index: 2;
+    bottom: 50px;
+    right: 50px;
+    background: teal;
+    animation: roll-2 2s infinite
+}
+
+.block-nine {
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+    background: lime;
+    animation: roll 2s infinite;
+}
+
