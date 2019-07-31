@@ -6,20 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/960.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
     <title>Airbox</title>
 </head>
 <body>
     <header>
-        <div class="headerwrapper">
-            <div class="navlogo">
+        <div class="headerwrapper container_12">
+            <div class="navlogo grid_3">
                 <h1 class="logo header-branding">
                     <span class="header-logo">O<sup>2</sup></span>air<span class="box">box</span>
                 </h1><!--want Air & Box to have separate styles-->
                 <p>hosting provider</p>
             </div><!--close navlogo-->
-            <nav class="navbar">
+            <div class="grid_3"></div>
+            <nav class="navbar grid_6">
                 <a href="#link">home</a>
                 <a href="#link">web hosting</a>
                 <a href="#link">reseller hosting</a>
@@ -31,43 +34,46 @@
     </header><!--close header-->
     <main>
         <div class="mainbanner">
-            <div class="mainwrapper">
-                <h2>
-                    <small>24/7 Real Person</small>
-                    <span class="large-h2">Customer Support</span> <span class="mid-h2">For All Our Clients</span>
-                </h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, vero officiis mollitia dolorem laborum beatae, atque illum accusamus hic architecto, deleniti placeat! Fuga, deserunt nulla!</p>
-                <a href="#link" class="try-now">try now</a>
+            <div class="container_12">
+                <div class="mainwrapper grid_12">
+                    <h2>
+                        <small>24/7 Real Person</small>
+                        <span class="large-h2">Customer Support</span> <span class="mid-h2">For All Our Clients</span>
+                    </h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, vero officiis mollitia dolorem laborum beatae, atque illum accusamus hic architecto, deleniti placeat! Fuga, deserunt nulla!</p>
+                    <a href="#link" class="try-now">try now</a>
+                </div>
             </div>
         </div><!--close mainbanner-->
         <div class="mainservices">
-            <div class="service-wrapper">
-                <div class="services controlpanel">
-                    <img src="media/control-panel.jpg" alt="control panel">
-                    <h2>control <span class="line-break">panel</span></h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam velit minus voluptas, alias quia cum?</p>
-                </div><!--close controlpanel-->
-                <div class="services multidomainhosting">
-                    <img src="media/multi-domain.jpg" alt="multi domain hosting">
-                    <h2>multi-domain <span class="line-break">hosting</span></h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At facere nam nulla, reiciendis amet ipsum.</p>
-                </div><!--close multidomainhosting-->
-                <div class="services ftpservice">
-                    <img src="media/ftp.jpg" alt="ftp service">
-                    <h2>ftp <span class="line-break">service</span></h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci, error. Autem, magni corrupti. At, ratione?</p>
-                </div><!--close ftpservices-->
-                <div class="services directsupport">
-                    <img src="media/direct-support.jpg" alt="direct support">
-                    <h2>direct <span class="line-break">support</span></h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque perferendis aliquam, placeat consequatur dolorum necessitatibus.</p>
-                </div><!--close directsupport-->
-                <div class="clear-float"></div>
+            <div class="container_12">
+                <div class="service-wrapper">
+                    <div class="services controlpanel grid_3">
+                        <img src="media/control-panel.jpg" alt="control panel">
+                        <h2>control <span class="line-break">panel</span></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam velit minus voluptas, alias quia cum?</p>
+                    </div><!--close controlpanel-->
+                    <div class="services multidomainhosting grid_3">
+                        <img src="media/multi-domain.jpg" alt="multi domain hosting">
+                        <h2>multi-domain <span class="line-break">hosting</span></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At facere nam nulla, reiciendis amet ipsum.</p>
+                    </div><!--close multidomainhosting-->
+                    <div class="services ftpservice grid_3">
+                        <img src="media/ftp.jpg" alt="ftp service grid_3">
+                        <h2>ftp <span class="line-break">service</span></h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci, error. Autem, magni corrupti. At, ratione?</p>
+                    </div><!--close ftpservices-->
+                    <div class="services directsupport grid_3">
+                        <img src="media/direct-support.jpg" alt="direct support">
+                        <h2>direct <span class="line-break">support</span></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque perferendis aliquam, placeat consequatur dolorum necessitatibus.</p>
+                    </div><!--close directsupport-->
+                </div>
             </div>
         </div><!--close mainservices-->
-        <div class="pricing">
+        <div class="pricing container_12">
             <div class="price-box">
-                <div class="prices minihosting">
+                <div class="prices minihosting grid_3">
                     <h2>mini hosting</h2>
                     <p><span class="price">$10.99</span><span class="permonth">/mo.</span></p>
                     <ul>
@@ -78,7 +84,7 @@
                     </ul>
                     <a href="#link">sign up</a>
                 </div><!--closeminihosting-->
-                <div class="prices userhosting">
+                <div class="prices userhosting grid_3">
                     <h2>user hosting</h2>
                     <p><span class="price">$12.99</span><span class="permonth">/mo.</span></p>
                     <ul>
@@ -89,7 +95,7 @@
                     </ul>
                     <a href="#link">sign up</a>
                 </div><!--close userhosting-->
-                <div class="prices prohosting">
+                <div class="prices prohosting grid_3">
                     <h2>pro hosting</h2>
                     <p><span class="price">$16.99</span><span class="permonth">/mo.</span></p>
                     <ul>
@@ -100,7 +106,7 @@
                     </ul>
                     <a href="#link">sign up</a>
                 </div><!--close prohosting-->
-                <div class="prices maxihosting">
+                <div class="prices maxihosting grid_3">
                     <h2>maxi hosting</h2>
                     <p><span class="price">$20.99</span><span class="permonth">/mo.</span></p>
                     <ul>
@@ -111,75 +117,78 @@
                     </ul>
                     <a href="#link">sign up</a>
                 </div><!--close maxihosting-->
-                <div class="clear-float"></div>
             </div>
         </div><!--close pricing-->
     </main><!--close main-->
     <footer>
         <div class="footerinfo">
-            <div class="hostingservices">
-                <h2>hosting services</h2>
-                <ul>
-                    <li>Shared Hosting</li>
-                    <li>Shared Cloud Hosting</li>
-                    <li>Reseller Hosting</li>
-                </ul>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ex eius porro, deleniti unde tenetur dignissimos eaque veniam atque corrupti!</p>
-                <a href="#link">shop now</a>
-            </div><!--close hostingservices-->
-            <div class="serversolutions">
-                <h2>server solutions</h2>
-                <ul>
-                    <li>Dedicated Servers</li>
-                    <li>Dynamic Cloud Server</li>
-                    <li>Virtual Servers</li>
-                </ul>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ex eius porro, deleniti unde tenetur dignissimos eaque veniam atque corrupti!</p>
-                <a href="#link">shop now</a>
-            </div><!--close serversolutions-->
-            <div class="emailsolutions">
-                <h2>email solutions</h2>
-                <ul>
-                    <li>Instant Mail</li>
-                    <li>18.1 MailXchange</li>
-                    <li>Microsoft Exchange</li>
-                </ul>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ex eius porro, deleniti unde tenetur dignissimos eaque veniam atque corrupti!</p>
-                <a href="#link">shop now</a>
-            </div><!--close emailsolutions-->
-            <div class="moreproducts">
-                    <h2>more products</h2>
+            <div class="container_12">
+                <div class="hostingservices grid_3">
+                    <h2>hosting services</h2>
                     <ul>
-                        <li>List Local</li>
-                        <li>Microsoft SharePoint</li>
-                        <li>eShops</li>
+                        <li>Shared Hosting</li>
+                        <li>Shared Cloud Hosting</li>
+                        <li>Reseller Hosting</li>
                     </ul>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ex eius porro, deleniti unde tenetur dignissimos eaque veniam atque corrupti!</p>
                     <a href="#link">shop now</a>
-            </div><!--close more products-->
+                </div><!--close hostingservices-->
+                <div class="serversolutions grid_3">
+                    <h2>server solutions</h2>
+                    <ul>
+                        <li>Dedicated Servers</li>
+                        <li>Dynamic Cloud Server</li>
+                        <li>Virtual Servers</li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ex eius porro, deleniti unde tenetur dignissimos eaque veniam atque corrupti!</p>
+                    <a href="#link">shop now</a>
+                </div><!--close serversolutions-->
+                <div class="emailsolutions grid_3">
+                    <h2>email solutions</h2>
+                    <ul>
+                        <li>Instant Mail</li>
+                        <li>18.1 MailXchange</li>
+                        <li>Microsoft Exchange</li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ex eius porro, deleniti unde tenetur dignissimos eaque veniam atque corrupti!</p>
+                    <a href="#link">shop now</a>
+                </div><!--close emailsolutions-->
+                <div class="moreproducts grid_3">
+                        <h2>more products</h2>
+                        <ul>
+                            <li>List Local</li>
+                            <li>Microsoft SharePoint</li>
+                            <li>eShops</li>
+                        </ul>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ex eius porro, deleniti unde tenetur dignissimos eaque veniam atque corrupti!</p>
+                        <a href="#link">shop now</a>
+                </div><!--close more products-->
+            </div>
         </div><!--close footerinfo-->
-        <div class="sponsors">
-            <img src="https://via.placeholder.com/200x75" alt="wordpress">
-            <img src="https://via.placeholder.com/200x75" alt="magento">
-            <img src="https://via.placeholder.com/200x75" alt="opencart">
-            <img src="https://via.placeholder.com/200x75" alt="joomla">
+        <div class="sponsors container_12">
+            <img src="https://via.placeholder.com/200x75" alt="wordpress" class="grid_3">
+            <img src="https://via.placeholder.com/200x75" alt="magento" class="grid_3">
+            <img src="https://via.placeholder.com/200x75" alt="opencart" class="grid_3">
+            <img src="https://via.placeholder.com/200x75" alt="joomla" class="grid_3">
         </div><!--close sponsors-->
-        <div class="copyright">
-            <div class="footerlogo">
-                <p class="logo">O<sup>2</sup></p>
-                <p>Air<span class="box">box</span></p>
-                <p>hosting provider</p>
-            </div><!--footerlogo-->
-            <div class="legal">
-                <p><span class="copy">&copy;2013</span> privacy policy</p>
+        <div class="copyright container_12">
+            <div class="footerlogo grid_10">
+                <div class="footerlogo">
+                    <p class="logo">O<sup>2</sup></p>
+                    <p>Air<span class="box">box</span></p>
+                    <p>hosting provider</p>
+                </div><!--footerlogo-->
+                <div class="legal">
+                    <p><span class="copy">&copy;2013</span> privacy policy</p>
+                </div>
+            </div>
+            <div class="socialmedia grid_2">
+                <a href="#link"><i class="fab fa-facebook"></i></a>
+                <a href="#link"><i class="fas fa-rss"></i></a>
+                <a href="#link"><i class="fab fa-twitter"></i></a>
+                <a href="#link"><i class="fab fa-google-plus"></i></a>
             </div>
         </div><!--close copyright-->
-        <div class="socialmedia">
-            <a href="#link"><i class="fab fa-facebook"></i></a>
-            <a href="#link"><i class="fas fa-rss"></i></a>
-            <a href="#link"><i class="fab fa-twitter"></i></a>
-            <a href="#link"><i class="fab fa-google-plus"></i></a>
-        </div>
     </footer>
 </body>
 </html>
