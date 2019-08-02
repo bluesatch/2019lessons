@@ -83,6 +83,10 @@ header {
     background: #ff8901;
 }
 
+.heroimage img {
+    border-radius: 1%;
+}
+
 .buttons {
     position: relative;
     margin: 0 auto 50px auto;
@@ -144,6 +148,7 @@ header {
 
 .content p {
     font-size: 14px;
+    font-weight: lighter;
     color: #596573;
     margin-bottom: 30px;
 }
