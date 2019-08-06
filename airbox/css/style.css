@@ -7,7 +7,15 @@ body {
 }
 
 header {
-    background: #302f44;
+    background: linear-gradient(#1f1d30, #302f44);
+}
+
+a {
+    text-decoration: none;
+}
+
+.sr-only {
+    display: hidden;
 }
 
 .header-logo {
@@ -57,6 +65,7 @@ sup {
 }
 
 .mainwrapper {
+    border-top: 1px solid #555;
     text-align: center;
 }
 
@@ -96,7 +105,7 @@ sup {
 }
 
 .mainservices {
-    background: #f4a471;
+    background: linear-gradient(#f9a26c, #dc8456);
 }
 
 .services {
@@ -127,8 +136,99 @@ sup {
     text-align: center;
 }
 
+.pricing {
+    background: #e7e7e7;
+    height: 360px;
+}
+
+
+.prices h2 {
+    margin-bottom: 0;
+    padding: 10px 20px;
+    border-radius: 5px 5px 0 0;
+    background: #6f6c89;
+    color: #e7e5f0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.prices p {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px 20px;
+    border-top:1px solid #e7e7e7;
+    background: #6f6c89;
+    font-size: 18px;
+    color: #f4a471;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px darkgray;
+    z-index: 2;
+}
+
+.triangle {
+    /* margin: -30px auto -4px auto;
+    width: 30px;
+    height: 30px;
+    background: #6f6c89;
+    transform: rotate(45deg);
+    z-index: 1; */
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    margin: 0 auto;
+    border-top: 20px solid #6f6c89;
+}
+
+.prices .price{
+    font-size: 2em; 
+    font-weight: bold;
+    color: #c7c4e1;
+}
+
+.prices ul {
+    margin-top: 0px;
+    padding-left: 0;
+    list-style: none;
+}
+
+.prices li {
+    padding: 10px 20px;
+    border: 1px solid #555;
+    font-size: 10px;
+    color: #555;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.prices li:last-child {
+    padding: 20px 40px;
+    border-radius: 0 0 5px 5px;
+}
+
+.signup {
+    padding: 10px 45px;
+    background: #f4a471;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+
+.signup:hover {
+    padding: 12px 45px;
+}
+
+.white {
+    background: #fefefe;
+}
+
+.gray {
+    background: #f7f7f7;
+}
+
 .footerinfo {
-    background: #302f44;
+    background: linear-gradient(#1f1d30, #302f44);
     height: 275px;
 }
 
@@ -164,6 +264,10 @@ sup {
     text-transform: uppercase;
 }
 
+.foot-info a:hover {
+    padding: 10px 12px;
+}
+
 .sponsors {
     height: 125px;
     background: #322f40;
@@ -171,6 +275,16 @@ sup {
 
 .copyright {
     background: #1b1a22;
+    color: #3a3846;
+    text-transform: uppercase;      
+}
+
+.footerlogo img {
+    margin-top: 15px;
+}
+
+.socialmedia {
+    padding-top: 20px;
 }
 
 .socialmedia a {
@@ -182,4 +296,8 @@ sup {
     border-radius: 5px;
     text-decoration: none;
     color: white;
+}
+
+.socialmedia a:hover {
+    color: #f4a471;
 }
