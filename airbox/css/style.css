@@ -80,7 +80,16 @@ sup {
     font-size: 2.15em;
     color: #f3f3f2;
     text-shadow: 1px 1px 2px gray;
+    font-weight: 900;
+}
 
+.mid-h2 {
+    /* display: block; */
+    font-size: 1.75em;
+    font-weight: 200;
+    background: -webkit-linear-gradient(#b2afc2, #828193);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .mainwrapper p {
@@ -92,15 +101,14 @@ sup {
 
 .try-now {
     padding: 10px 20px;
-    border-radius: 5%;
+    border-radius: 5px;
     background: #6d6a89;
     color: #f3f3f2;
     text-transform: uppercase;
-    text-decoration: none;
 }
 
 .try-now:hover {
-    padding: 12px 24px;
+    padding: 12px 20px;
     color: #f4a471;
 }
 
@@ -199,6 +207,7 @@ sup {
     color: #555;
     text-align: center;
     text-transform: uppercase;
+    
 }
 
 .prices li:last-child {
@@ -217,6 +226,7 @@ sup {
 
 .signup:hover {
     padding: 12px 45px;
+
 }
 
 .white {
@@ -225,6 +235,7 @@ sup {
 
 .gray {
     background: #f7f7f7;
+
 }
 
 .footerinfo {
