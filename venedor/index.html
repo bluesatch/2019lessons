@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/a6ddc4e9e0.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Venedor aka Adrian</title>
 </head>
 <body>
@@ -12,10 +16,10 @@
             <div class="row">
                 <div class="col-sm-8">
                     <h1>
-                        <span class="header-logo">ve</span>nedor
+                        <span class="header-logo">ve</span>nedor<span class="highlight">.</span>
                     </h1>
                     <!-- ul>li*6>a -->
-                    <ul>
+                    <ul class="main-nav">
                         <li><a href="#link" target="_blank" rel="noopener noreferrer">fashion</a></li>
                         <li><a href="#link" target="_blank" rel="noopener noreferrer">electronics</a></li>
                         <li><a href="#link" target="_blank" rel="noopener noreferrer">gifts</a></li>
@@ -24,18 +28,20 @@
                         <li><a href="#link" target="_blank" rel="noopener noreferrer">music</a></li>
                     </ul>
                 </div>
-                <div class="col-sm-4">
-                    <a href="#link" class="currency">us dollar</a>
-                    <a href="#link" class="language">english</a>
-                    <a href="#link" class="cart">0 item(s) - $0.00</a>
+                <div class="purchasing col-sm-4">
+                    <div class="purchasing-box">
+                        <a href="#link" class="currency">US dollar</a>
+                        <a href="#link" class="language">english</a>
+                        <a href="#link" class="cart">0 item(s) - $0.00</a>
+                    </div>
                     <form action="#link" class="search">
-                        <input type="text" name='search' value='Search here...'>
+                        <input type="text" name='search' value='Search here...' size="30"><i class="fas fa-search"></i>
                     </form>
                 </div>
             </div>
         </div>
     </header>
-    <nav>
+    <nav class="top-nav">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
@@ -48,20 +54,255 @@
                     </ul>
                 </div>
                 <div class="col-sm-6">
-                    <p>Welcome visitor you can <a href="#link">login</a> or <a href="#link">create an account.</a></p>
+                    <p>Welcome visitor you can <a href="#link" class="highlight">login</a> or <a href="#link" class="highlight">create an account.</a></p>
                 </div>
             </div>
+            <!-- close row -->
         </div>
+        <!-- close container -->
     </nav>
     <div class="banner">
+        <img src="https://via.placeholder.com/1415x600" alt="placeholder img">   
+    </div>
+    <main>
         <div class="container">
-            <div class="row">
+            <div class="promos row">
                 <div class="col-sm-12">
-                    <img src="https://via.placeholder.com/1400x400" alt="placeholder img">
-                    
+                    <img src="https://via.placeholder.com/360x200" alt="placeholder img">
+                    <img src="https://via.placeholder.com/360x200" alt="placeholder img">
+                    <img src="https://via.placeholder.com/360x200" alt="placeholder img">
                 </div>
             </div>
+            <!-- close row -->
+            <div class="latest row">
+                <div class="col-sm-10">
+                    <h2>latest</h2>
+                    <p>Buy discount items from the latest collection of world brands.</p>
+                </div>
+                <div class="col-sm-2">
+                    <span class="lt">&lt;</span><span class="gt">&gt;</span>
+                </div>
+            </div>
+            <!-- close row -->
+            <div class="row">
+                <div class="latest-items col-sm-3">
+                        <img src="https://via.placeholder.com/240x325" alt="placeholder img">
+                        <p><a href="#link"class="add-to-cart">add to cart</a></p>
+                </div>
+                <div class="latest-items col-sm-3">
+                        <img src="https://via.placeholder.com/240x325" alt="placeholder img">
+                        <p><a href="#link"class="add-to-cart">add to cart</a></p>
+                </div>
+                <div class="latest-items col-sm-3">
+                        <img src="https://via.placeholder.com/240x325" alt="placeholder img">
+                        <p><a href="#link" class="add-to-cart">add to cart</a></p>
+                </div>
+                <div class="latest-items col-sm-3">
+                        <img src="https://via.placeholder.com/240x325" alt="placeholder img">
+                        <p><a href="#link" class="add-to-cart">add to cart</a></p>
+                </div> 
+            </div>
+            <!-- close row -->
+            <div class="welcome-row row">
+                <div class="welcome col-sm-6">
+                    <h2>Welcome to Venedor</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae perferendis accusamus eum magni itaque, doloribus et magnam, aspernatur cumque delectus provident deserunt mollitia nostrum quo?</p>
+                    <p>Nihil aliquam, voluptatibus aut animi fuga dolorem nobis, perspiciatis minima porro iusto, ducimus quaerat ab iure quod natus eum cupiditate autem. Eligendi totam dolorem et.</p>
+                    <a href="#link">Buy Venedor Theme!</a>
+                </div>
+                <div class="col-sm-6">
+                    <img src="https://via.placeholder.com/510x250" alt="placeholder img">
+                </div>
+            </div>
+            <!-- close row -->
+            <div class="row">
+                <div class="bestseller col-sm-10">
+                    <h2 class=>bestsellers</h2>
+                    <p>Special offers and biggest discounts for the most popular products</p>
+                </div>
+                <div class="col-sm-2">
+                    <span class="lt">&lt;</span><span class="gt">&gt;</span>
+                </div>
+            </div>
+            <!-- close row -->
+            <div class="row">
+                <div class="bestseller-items col-sm-3">
+                    <img src="https://via.placeholder.com/240x325" alt="placeholder img">
+                    <p><a href="#link" class="add-to-cart">add to cart</a></p>
+                </div>
+                <div class="bestseller-items col-sm-3">
+                    <img src="https://via.placeholder.com/240x325" alt="placeholder img">
+                    <p><a href="#link" class="add-to-cart">add to cart</a></p>
+                </div>
+                <div class="bestseller-items col-sm-3">
+                    <img src="https://via.placeholder.com/240x325" alt="placeholder img">
+                    <p><a href="#link" class="add-to-cart">add to cart</a></p>
+                </div>
+                <div class="bestseller-items col-sm-3">
+                    <img src="https://via.placeholder.com/240x325" alt="placeholder img">
+                    <p><a href="#link" class="add-to-cart">add to cart</a></p>
+                </div> 
+            </div>
+            <!-- close row -->
+            <div class="row">
+                <div class="col-sm-10">
+                    <h2 class="manufacturers">manufacturers</h2>
+                </div>
+                <div class="col-sm-2">
+                    <span class="lt">&lt;</span><span class="gt">&gt;</span>
+                </div>
+            </div>
+            <!-- row -->
+            <div class="manu-list row">
+                <div class="col-sm-2">
+                    <img src="https://via.placeholder.com/165x100" alt="placeholder img">      
+                </div>
+                <div class="col-sm-2">
+                    <img src="https://via.placeholder.com/165x100" alt="placeholder img">      
+                </div>
+                <div class="col-sm-2">
+                    <img src="https://via.placeholder.com/165x100" alt="placeholder img">      
+                </div>
+                <div class="col-sm-2">
+                    <img src="https://via.placeholder.com/165x100" alt="placeholder img">      
+                </div>
+                <div class="col-sm-2">
+                    <img src="https://via.placeholder.com/165x100" alt="placeholder img">      
+                </div>
+                <div class="col-sm-2">
+                    <img src="https://via.placeholder.com/165x100" alt="placeholder img">      
+                </div>
+            </div>
+            <!-- close row -->
         </div>
+        <!-- close container -->
+    </main>
+    <div class="signup">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <p>sign up to receive the latest fashion news</p>
+                </div>
+                <div class="col-sm-6">
+                    <form action="#link">
+                        <input type="email" name="email" value="Enter your email address" size="50" class="email">
+                        <input type="submit" name="submit" value="SIGN UP" class="signup-button">
+                    </form>
+                </div>
+            </div>
+            <!-- close row -->
+        </div>
+        <!-- close container -->
     </div>
+    <!-- close signup -->
+    <footer>
+        <div class="footer-info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <h2>my account</h2>
+                        <ul>
+                            <li><a href="#link" target="_blank" rel="noopener noreferrer">My account</a></li>
+                            <li><a href="#link" target="_blank" rel="noopener noreferrer">Personal information</a></li>
+                            <li><a href="#link" target="_blank" rel="noopener noreferrer">Addresses</a></li>
+                            <li><a href="#link" target="_blank" rel="noopener noreferrer">Discount</a></li>
+                            <li><a href="#link" target="_blank" rel="noopener noreferrer">Orders history</a></li>
+                            <li><a href="#link" target="_blank" rel="noopener noreferrer">Your vouchers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h2>information</h2>
+                        <ul>
+                            <li><a href="#link" target="_blank" rel="noopener noreferrer">New products</a></li>
+                            <li><a href="#link" target="_blank" rel="noopener noreferrer">Top sellers</a></li>
+                            <li><a href="#link" target="_blank" rel="noopener noreferrer">Specials</a></li>
+                            <li><a href="#link" target="_blank" rel="noopener noreferrer">Manufacturers</a></li>
+                            <li><a href="#link" target="_blank" rel="noopener noreferrer">Suppliers</a></li>
+                            <li><a href="#link" target="_blank" rel="noopener noreferrer">Our stores</a></li>
+                        </ul>
+                    </div>
+                    <div class="twitter-content col-sm-3">
+                        <h2>from twitter</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur distinctio maxime corporis cumque, dolore praesentium!<a href="#link">http://tc/Mqie38kvg</a></p>
+                        <p class="time-span">about 1 hours ago</p>
+                        <p>Iure deleniti quo neque impedit sequi unde praesentium facilis officiis. Impedit fugiat <a href="#link">http://tc/Mqie38kvg</a> eaque esse libero.</p>
+                        <p class="time-span">about 3 hours ago</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <h2>facebook</h2>
+                            </div>
+                            <div class="col-xs-6">
+                                <button>Like!</button>
+                            </div>
+                        </div>
+                        <!-- close row -->
+                        <div class="like-counter row">
+                            <div class="col-xs-12">
+                                <p>1452 people like <span class="highlight">PromoKit</span></p>
+                            </div>
+                        </div>
+                        <!-- close row -->
+                        <div class="fb-profiles row">
+                            <div class="col-xs-4">
+                                <img src="https://via.placeholder.com/30x30" alt="placeholder img"> 
+                                <p>Lorem.</p>
+                            </div>
+                            <div class="col-xs-4">
+                                <img src="https://via.placeholder.com/30x30" alt="placeholder img">
+                                <p>Lorem.</p> 
+                            </div>
+                            <div class="col-xs-4">
+                                <img src="https://via.placeholder.com/30x30" alt="placeholder img">
+                                <p>Lorem.</p> 
+                            </div>
+                        </div>
+                        <!-- close row -->
+                        <div class="fb-profiles row">
+                            <div class="col-xs-4">
+                                <img src="https://via.placeholder.com/30x30" alt="placeholder img"> 
+                                <p>Lorem.</p>
+                            </div>
+                            <div class="col-xs-4">
+                                <img src="https://via.placeholder.com/30x30" alt="placeholder img">
+                                <p>Lorem.</p> 
+                            </div>
+                            <div class="col-xs-4">
+                                <img src="https://via.placeholder.com/30x30" alt="placeholder img"> 
+                                <p>Lorem.</p>
+                            </div>
+                        </div>
+                        <!-- close row -->
+                    </div>
+                </div>
+                <!-- close row -->
+            </div>
+            <!-- close container -->
+        </div>
+        <!-- close footer-info -->
+        <div class="colophon">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <a href="#link">facebook</a>
+                        <a href="#link">twitter</a>
+                        <a href="#link">rss</a>
+                        <a href="#link">instagram</a>
+                        <a href="#link">linkedin</a>
+                        <a href="#link">flickr</a>
+                        <a href="#link">skype</a>
+                        <a href="#link">email</a>
+                    </div>
+                    <div class="col-sm-6">
+                        <p>&copy;2012 Powered by Wu Commerce&trade;. All Rights Reserved</p>
+                    </div>
+                </div>
+                <!-- close row -->
+            </div>
+            <!-- close container -->
+        </div>
+        <!-- close colophon -->
+    </footer>
 </body>
 </html>
