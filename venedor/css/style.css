@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+.sr-only {
+    display: none;
+}
+
 header {
     margin-top: 75px;
 }
@@ -136,8 +140,17 @@ main {
     margin-top: 20px;
 }
 
+.slide-buttons {
+    float: right;
+}
+
+.promo-box {
+    padding: 0;
+}
+
 .promos img{
-    padding-right: 10px;
+    padding-right: 12px;
+    padding-left: 12px;
     margin-bottom: 30px;
 }
 .latest-items {
@@ -171,8 +184,13 @@ main {
     color: #13bfcb;
 }
 
+.latest-items {
+    padding: 0;
+}
+
 .latest-items img {
-    margin-bottom: 20px;
+    display: block;
+    margin: 0 auto 20px auto;
 }
 
 .latest-items p {
@@ -237,10 +255,13 @@ main {
 
 .bestseller-items {
     margin-bottom: 100px;
+    padding: 0;
 }
 
 .bestseller-items img {
-    margin-bottom: 20px;
+    display: block;
+    margin: 0 auto 20px auto;
+
 }
 
 .bestseller-items p {
@@ -277,6 +298,7 @@ main {
 
 .signup form {
     margin-top: 30px;
+    float: right;
 }
 
 .signup .email {
@@ -306,6 +328,14 @@ footer h2 {
     text-transform: uppercase;
     font-size: 18px;
     font-weight: bold;
+}
+
+.like-button {
+    margin-top: 70px;
+    float: right;
+    background: #13bfcb;
+    border: none;
+    color: white;
 }
 
 footer ul {
@@ -351,5 +381,29 @@ footer li a:hover {
 }
 
 .fb-profiles p {
-    color: #999
+    color: #999;
+    text-align: center;
+}
+
+.colophon {
+    border-top: 2px solid #777;
+    padding: 20px;
+}
+
+.sm-icons a {
+    padding: 8px; 
+    margin-right: 4px;
+    background: #626665;
+    box-shadow: 1px 1px 1px 1px #555;
+    font-size: 16px;
+    color: #fffff0;
+}
+
+.sm-icons a:hover {
+    color: #13bfcb;
+}
+
+.copyright {
+    color: #fffff0;
+    float: right;
 }
