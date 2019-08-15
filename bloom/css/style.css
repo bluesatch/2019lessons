@@ -1,0 +1,43 @@
+/* style sheet for bloom */
+
+* {
+    box-sizing: border-box;
+}
+
+/* general rules */
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    display: inline;
+}
+
+/* nav bar */
+
+nav {
+    background: #26292e;
+    color: #eee;
+}
+h1 {
+    font-family: 'Butterfly Kids', cursive;
+}
+
+
+nav ul {
+    margin-top: 15px;
+    float: right;
+}
+
+.icons {
+    background: #eee;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    color: #26292e;
+    text-align: center;
+    line-height: 3;
+    font-size: 16px;
+}
