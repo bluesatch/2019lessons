@@ -1,0 +1,13 @@
+var itemTotal = 1;
+var Obj ={}
+
+function addToCart(item, price) {
+    Obj['item' + itemTotal] = [item, price]
+    itemTotal++;
+    //do stuff
+}
+
+Obj = {
+    item1: ['bread',4.99],
+    item2: ['beer',6.99]
+}

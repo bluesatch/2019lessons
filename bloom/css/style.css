@@ -20,24 +20,169 @@ li {
 nav {
     background: #26292e;
     color: #eee;
+    padding: 30px 0;
 }
+
+/* @media (min-width: 768px) {
+   
+} */
 h1 {
     font-family: 'Butterfly Kids', cursive;
+    font-size: calc(28px + (56 - 28) * ((100vw - 300px) / (1600 - 300)));
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        /* font-size: 3em; */
+        text-align: left;
+    }
 }
 
 
-nav ul {
+.nav-icons {
     margin-top: 15px;
-    float: right;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .nav-icons {
+        text-align: right;
+    }
 }
 
 .icons {
-    background: #eee;
     width: 45px;
     height: 45px;
+    background: #eee;
     border-radius: 50%;
-    color: #26292e;
     text-align: center;
-    line-height: 3;
-    font-size: 16px;
+    line-height: 2;
+    font-size: 24px;
+}
+
+a {
+    color: #26292e;
+}
+
+a:hover {
+    color: #e7718b;
+}
+
+/* end nav bar */
+
+/* hero */
+
+.hero {
+    padding: 30px 0;
+    /* background: #e7718b; */
+    background:
+    radial-gradient(
+      circle at top,
+      #ec8da1, /* ec8da1*/
+      #e7718b
+    );
+    color: #eee;
+}
+
+.hero h2 {
+    /* font-size: 18px; */
+    font-size: calc(18px + (24 - 18) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.hero p {
+    font-size: calc(12px + (16 - 12) * ((100vw - 300px) / (1600 - 300)));
+}
+
+
+button {
+    background: #26292e;
+    color: #eee;
+    text-transform: capitalize;
+}
+
+.hero img {
+    margin: 15px auto;
+}
+
+/* close hero */
+
+/* main */
+
+/* top-main */
+
+.top-main {
+    padding: 30px 0;
+    background: #f4f4f6;
+    color: #26292e;
+    border-bottom: 10px solid #fce3e7;
+}
+
+.top-main h2 {
+    font-size: 18px;
+}
+
+/* close top-main */
+
+/* bottom-main */
+
+.bottom-main {
+    padding: 30px 0;
+}
+
+.bottom-main h2{
+    font-size: 18px;
+    font-size: calc(16px + (18 - 16) * ((100vw - 300px) / (1600 - 300)));
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .bottom-main h2 {
+        text-align: left;
+    }
+}
+
+.product-img {
+    display: block;
+    margin: 10px auto;
+}
+
+@media (min-width: 768px) {
+    .product-img {
+        display: inline;
+    }
+}
+
+/* close bottom-main */
+
+/* close main */
+
+/* footer */
+
+footer {
+    padding: 30px 0;
+    background: #26292e;
+    color: #eee;
+}
+
+.footer-icons {
+    margin-top: 15px;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .footer-icons {
+        text-align: right;
+    }
+}
+
+footer p {
+    font-size: calc(11px + (14 - 11) * ((100vw - 300px) / (1600 - 300)));
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    footer p {
+        text-align: left;
+    }
 }
