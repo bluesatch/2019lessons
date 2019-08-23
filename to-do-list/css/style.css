@@ -1,0 +1,39 @@
+body {
+    background: #ddd;
+}
+
+nav {
+    width: 100%;
+    padding: 10px 0;
+    background: dodgerblue;
+    margin-bottom: 15px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+/* ol {
+    background: #eee;
+} */
+
+li {
+    color: #555;
+    border: 1px solid #000;
+}
+
+.list {
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    border: 2px solid #222;
+    color: #222;
+}
+
+.mask .done {
+    display: none;
+}
