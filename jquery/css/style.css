@@ -1,0 +1,13 @@
+.hello {
+    width: 200px;
+    height: 200px;
+    background: #222;
+    transition: all 2s ease-in-out;
+    /* look up transition */
+}
+
+.goodbye {
+    width: 400px;
+    height: 400px;
+    background: dodgerblue;
+}
