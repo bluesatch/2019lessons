@@ -1,0 +1,298 @@
+ /* Theme Name: Detroix
+ Author: Herbert Brown 
+ */
+ 
+ * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    background: #f1f2f4;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top-bar {
+    padding: 8px;
+    background: #131d29;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.top-bar a {
+    color: #596573
+}
+.top-bar a:hover {
+    color: white;
+}
+
+.navbar1 ul {
+    margin: 0;
+    /* padding: 8px; */
+    text-align: right;
+    list-style: none;
+}
+
+.navbar1 li {
+    padding-left: 5px; 
+    padding-right: 2px;
+    border-left: 1px solid #596573;
+    text-decoration: none;
+    display: inline;
+}
+
+.navbar1 li:first-child {
+    border: none;
+}
+
+header {
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.sr-only {
+    display: none;
+}
+
+.navbar2 {
+    margin-top: 30px;
+}
+
+
+.navbar2 ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.navbar2 li {
+    text-decoration: none;
+    display: inline;
+}
+
+.navbar2 a {
+    background: #131d29;
+    border-radius: 10%;
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar2 a:hover {
+    background: #ff8901;
+}
+
+.heroimage img {
+    border-radius: 1%;
+}
+
+.buttons {
+    position: relative;
+    margin: 0 auto 50px auto;
+    display: block;
+    width: 96px;
+    height: auto;
+}
+
+
+.button {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #c6d0dc;
+    border-radius: 50%;
+}
+
+.button:hover {
+    background: #ff8901;
+}
+
+.button1 {
+    top: 0;
+    left: 0;
+}
+
+.button2 {
+    top: 0;
+    left: 32px;
+}
+
+.button3 {
+    top:0;
+    right: 0;
+}
+
+.maincontent {
+    border-top: 1px solid #c6d0dc;
+}
+
+.content {
+    border-left: 1px solid #c6d0dc;
+    padding-left: 20px;
+    height: 450px;
+}
+
+.content:first-child {
+    border-left: none;
+}
+.content h2 {
+    text-transform: uppercase;
+    font-size: 3em;
+    color: #131d29;
+}
+
+.content img {
+    border-radius: 10%; 
+}
+
+.content p {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #596573;
+    margin-bottom: 30px;
+}
+
+.more-button {
+    padding: 8px 20px;
+    background: #131d29;
+    border-radius: 10%;
+    text-transform: uppercase;
+    color: white;
+}
+
+.more-button:hover {
+    background: #ff8901;
+}
+
+.mainbottom {
+    background: rgb(54,86,124,1);
+    background: radial-gradient(
+                    circle at top,
+                    rgba(54,86,124,1) 0%,
+                    rgba(23,39,55,1) 39%, 
+                    rgba(19, 29,41,1) 94%
+                    );
+    height: 450px;
+}
+
+.bottom-wrapper h2 {
+    text-transform: uppercase;
+    font-size: 2em;
+    color: white;
+}
+
+.content2 ul {
+    padding-left: 0;
+}
+
+.services ul {
+    list-style-image: url(../media/cog.png);
+}
+
+.services li {
+    font-size: 14px;
+    line-height: 2;
+    color: white;
+}
+
+.services a {
+    color: white;
+}
+
+.opportunities ul {
+    list-style-image: url(../media/chat.png);
+}
+
+.opportunities li {
+    color: white;
+}
+
+.opportunities h3 {
+    text-transform: capitalize;
+    color: white;
+}
+
+.opportunities p {
+    font-size: 14px;
+    color: #c6d0dc;
+}
+
+
+.news ul {
+    list-style: none;
+}
+
+.news h3 {
+    margin: 0;
+    color: white;
+}
+
+.newscontent p {
+    margin-top: 0;
+    font-size: 14px;
+    color: #c6d0dc;
+}
+.date-block {
+    width: 60px;
+    height: 60px;
+    border-radius: 5%;
+    text-align: center;
+    color: white;
+}
+
+.date-block p {
+    margin: 0;
+    padding: 2px;
+    line-height: 1;
+}
+
+.date1 {
+    background: #be8542;
+}
+
+.date2 {
+    background: #bc6142;
+}
+
+.date3 {
+    background: #bd425e;
+}
+
+.day {
+    font-size: 2em;
+}
+
+.content2 .more-button {
+    background: #213349;
+}
+
+.content2 .more-button:hover {
+    background: #ff8901;
+}
+
+.copyright {
+    background: #0b1016;
+    height: 100px;
+}
+
+.innercopy p{
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-top: 8px;
+    color: #596573;
+}
+
+.innercopy a {
+    color: #596573;
+}
+
+.innercopy a:hover {
+    color: white;
+}
+
+
